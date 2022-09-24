@@ -1,92 +1,79 @@
-# SnakeVideoGame
-this is videoGame based on clasical snake with some upgrades, it was done in Java if you have JDK you can prove it and enjoy them.
+# TetrisGame
+Este es un videojuego basado en el clásico Tetris con algunas actualizaciones, fue hecho en Java si tienes JDK puedes probarlo y disfrutarlo.
 
 ## Starting 🚀
 
-To prove the game you need to download JDK, this is for execute game. You can use this link I recommend you version 8 or 11
+Para probar el juego necesitas descargar JDK, esto es para ejecutar el juego. Puedes usar este enlace te recomiendo la versión 8 o 11
 https://www.oracle.com/co/java/technologies/javase/javase-jdk8-downloads.html
 
 
-### Clone Repo and use it 🔧
-use git clone https://github.com/javier32rojas040506/SnakeVideoGame.git to have the repo
+### Clone Repo y pruebalo! 🔧
+Use git clone https://github.com/Camilomora117/POOBTetrisGame.git para obtener el codigo.
 
-then you can run jar or open the code with your favorite IDE a run it.
+Luego puedes abrir el código con su IDE favorito y ejecutarlo.
 
-to run the jar, open de terminal and put this:
-```
-cd SnOOPe
-java -jar SnOOPe.jar
-```
+Ejecutalo en la clase TetrisGUI.java
 
-_the first comand is to locate into the same folder jar and the secon is to execute_
+
 ## The game 🍺
-##### when you run the game you have the screen
-![img](https://i.imgur.com/eyQeWU8.png[/img])
+##### Ejecutalo y estaras en la pantalla principal:
+![image](https://user-images.githubusercontent.com/98135134/192120424-3e5a5f56-6f6a-4a34-860d-8dcfb7395a52.png)
 
 
-##### then choose play and set the mode
+##### Hay varios modos de juego (Individual, Multijugador y vs Maquina):
 
 
-![img](https://i.imgur.com/QFAzHm1.png[/img])
+![image](https://user-images.githubusercontent.com/98135134/192120435-cf8cb8b0-677f-4140-adc2-f17632ce186c.png)
 
 
+##### Selecciona el modo de juego que quieras y coloca tu nombre:
 
-##### we have tree modes but the lastOne  PlayervsMachine is not  finished if you want to finish you can make a pull request.  For others modes (Only or "solo" and PlayervsPlayer or "JvsJ") we have the next images
+![image](https://user-images.githubusercontent.com/98135134/192120455-8b72193d-40f5-4dac-9cff-02d688634347.png)
 
+##### Puedes configurar:
 
-![img](https://i.imgur.com/1YPbOme.png[/img])
-![img](https://i.imgur.com/MSGiKhW.png[/img])
-![img](https://i.imgur.com/bnpJ9gn.png[/img])
-![img](https://i.imgur.com/rSU0CXZ.png[/img])
+* Velocidad de Caida de las fichas.
+* Cada cuanto quieres que aparezca un buffo.
+* Modo rapido o modo lento.
 
-##### for  PlayervsMachine the machine can't move alone if you want to implements I will be very gratful to recive your pull request.
+![image](https://user-images.githubusercontent.com/98135134/192120468-d5af1054-24a1-4373-8799-1780d43dd4d4.png)
 
-## In the game are two type of things that the snake can eat
-##### food
-![img](https://i.imgur.com/E22JnVD.png[/img])   this make the snake grow tree time
-![img](https://i.imgur.com/dqOOVPC.png[/img]) this make the snake grow one time
-![img](https://i.imgur.com/s7bZ4yP.png[/img])  this make the snake shrink one time
-![img](https://i.imgur.com/NNtAF9o.png[/img])  this kill the snake
-##### surprises
-###### you can activate with space
-![img](https://i.imgur.com/scqL9Tw.png[/img]) this put a block trap in the board
-![img](https://i.imgur.com/uXXZSXn.png[/img]) this speed up the snake
-![img](https://i.imgur.com/wm4gGhS.png[/img]) this speed down the snake
-![img](https://i.imgur.com/50urHzr.png[/img]) this make that the food cant have effecf in the snake
-![img](https://i.imgur.com/kyoMpg5.png[/img]) this make that the snake shoot a fire ball
+##### A jugar!
+
+![image](https://user-images.githubusercontent.com/98135134/192120528-3b9ff4e0-0873-4fae-aace-cc70249243a2.png)
+
+##### Controles:
+
+![image](https://user-images.githubusercontent.com/98135134/192120541-6259bd74-bcf0-4032-844a-f9cabb016f50.png)
+
+##### Buffos:
+
+![image](https://user-images.githubusercontent.com/98135134/192120553-fa24b9b9-5f48-4d78-975b-92398161ff84.png)
+
+##### Color de tablero de tu preferencia:
+
+![image](https://user-images.githubusercontent.com/98135134/192120574-33b86e15-6e15-41ad-8963-abec087e7568.png)
+
+##### Si tienes dudas del Juego Lee la siguiente Guia:
+
+[Guia TetrisGame](https://github.com/Camilomora117/POOBTetrisGame/blob/main/POOBTetrisGUIA.pdf)
+
 ## Test ⚙️
 
-_you need to install junit5.4_
+_Necesitas instalar junit5.4_
 
-### About the tests 🔩
-
-_we have some test to prove basic funtion like move, eat, etc.._
-
-
-## make a pull request 📦
-
-_you can upgrade this game even finish  the Machine mode that I  explain in this readme _
-
-##built with 🛠️
+## Built 🛠️
 
 _java 11 LTS version_
 
-## If you want to contribute 🖇️
+## Autores ✒️
 
-pull request will be accepted if  satify one of this requirements:
+* **Yesid Camilo Mora Barbosa**  [Camilomora117](https://github.com/Camilomora117)
+* **Enrique Gonzales Suarez**  [EnriqueGS07](https://github.com/EnriqueGS07) 
 
-* you found a problem and you solved.
-* you want to put new object, in this case you need to prove that the code is well and your upgrade runs well with a pdf or others.
-* you want improve the code, in this case you need yo prove that the code runs well and in comment explain the development principle thatyou used.
+## Licencia 📄
 
-## Authors ✒️
+Licencia Usada en el proyecto: Creative Commons Zero v1.0 Universal  view [LICENSE.md](LICENSE.md)## Expresiones de Gratitud 🎁
 
-* **Francisco Javier Rojas Muñoz**  [javier32rojas040506](https://github.com/javier32rojas040506)
-* **Juan Camilo Rojas Castro**  [JuanRojasCastr](https://github.com/JuanRojasCastr) 
-
-## Licence 📄
-
-the license od this proyect is Creative Commons Zero v1.0 Universal  view [LICENSE.md](LICENSE.md)## Expresiones de Gratitud 🎁
-
-* please coment to others perso about this proyect 📢
+Comenta a otras personas sobre este proyecto📢
 
